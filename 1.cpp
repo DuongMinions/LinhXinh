@@ -3,30 +3,30 @@
 int main()
 {
     printf("=======Menu=======\n");
-    printf("B?n thích an món gì nh?t? \n");
-    printf("a. Th?t chó lu?c + ru?u \n");
+    printf("B?n thï¿½ch an mï¿½n gï¿½ nh?t? \n");
+    printf("a. Th?t chï¿½ lu?c + ru?u \n");
     printf("b. Ti?u h? + ru?u \n");
     printf("c. Bia + l?c + nem chua \n");
-    printf("d. Th?t, n?m bò nu?ng + ru?u \n");
+    printf("d. Th?t, n?m bï¿½ nu?ng + ru?u \n");
     
     char lua_Chon;
     printf("M?i nh?p s? l?a ch?n: ");
     scanf("%c", &lua_Chon);
     
     switch(lua_Chon){
-        case 'a': printf("ok th?t chó hàng xóm");
+        case 'a': printf("ok th?t chï¿½ hï¿½ng xï¿½m");
             break;
-        case 'b': printf("ok th?t mèo hàng xóm");
+        case 'b': printf("ok th?t mï¿½o hï¿½ng xï¿½m");
             break;
-        case 'c': printf("tr?i nóng bia là nh?t");
+        case 'c': printf("tr?i nï¿½ng bia lï¿½ nh?t");
             break
         case 'd': printf("tr?i l?nh tuy?t v?i");
             break;
-        default : printf("m?t di?c à? ABCD thôi thánh");
+        default : printf("m?t di?c ï¿½? ABCD thï¿½i thï¿½nh");
             break;
     }
 
-
+ //chá»“ng yÃªu vá»£ chá»¥t chá»¥t
     return 0;
 }
 
